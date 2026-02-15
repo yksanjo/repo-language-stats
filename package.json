@@ -1,0 +1,12 @@
+{
+  "name": "repo-language-stats",
+  "version": "1.0.0",
+  "description": "Analyze programming language usage across all your repos",
+  "main": "src/index.js",
+  "bin": { "gh-lang-stats": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "languages", "stats"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
